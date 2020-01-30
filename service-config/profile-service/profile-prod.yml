@@ -1,5 +1,9 @@
-server:
-  port: 9192
+# Commenting out this port because configured port as 0 in the bootstrap.yml
+# So that when launching multiple instances from this service a random port no #
+# is assigned from range of ports
+
+#server:
+#  port: 9192
 
 jpa:
   hibernate:
